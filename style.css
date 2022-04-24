@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+a {
+    text-decoration: none;
+}
+.instagram-container {
+    display: flex;
+    height: 600px;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;     
+    margin: auto;
+}
+
+.instagram-login {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid rgb(215,215,215);
+    align-items: center;
+    justify-content: center; 
+    margin-top: 35px;
+    margin-bottom: 5px;
+    height: 65%;
+    width: 100%;
+}
+#logo-instagram {
+    margin-top: 35px;
+}
+#form-login {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center; 
+    height: 30%;
+}
+
+#form-login input{
+    width: 78%;
+    height: 35px;   
+    font-size: 12px; 
+    border: 1px solid rgb(215,215,215);
+    background-color: rgb(248, 248, 248);
+    margin-top: 5px;
+    text-indent: 8px;
+}
+
+#form-login button {
+    width: 78%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    background-color: rgb(161, 219, 253);
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#entrar-facebook {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#link-facebook {
+    color: #3b5998;
+    font-weight: bold;
+}
+
+#ou {
+    font-weight: bold;
+    color: grey;
+}
+#logo-facebook {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 5px;
+}
+
+#esqueceu-senha {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #3b5998;
+}
+.nao-tem-conta {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid rgb(215,215,215);
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 5px;
+    height: 10%;
+    width: 100%;
+}
+.obtenha-aplicativo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 5px;
+    height: 15%;
+    width: 100%;
+}
+
+.obtenha-aplicativo img {
+    height: 40px;
+    width: 120px;
+}
+
+#cadastre-se {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+    margin: 5px;
+}
+
+#image-store {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {    
+    height: 150px;
+    position: relative;
+    text-align: center;
+    color: rgb(139, 139, 139);
+    font-size: xx-small;
+}
+
+#menu-rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#menu-rodape ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu-rodape li {
+    display: inline;
+    margin-left: 10px;
+    
+}
